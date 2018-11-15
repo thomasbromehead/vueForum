@@ -25,7 +25,7 @@ export default new Router({
     },
     {
       // Dynamic segment need to build our URL
-      path: '/thread/:id',
+      path: '/thread/show/:id',
       // Always use the CRUD verb when naming the component
       name: 'ThreadShow',
       component: ThreadShow,

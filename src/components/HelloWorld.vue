@@ -17,6 +17,7 @@ export default {
   },
   data () {
     return {
+      // Turn Threads object into an array and send to child as a key in the ThreadList tag
       threads: Object.values(sourceData.threads),
       posts: sourceData.posts,
       users: sourceData.users
