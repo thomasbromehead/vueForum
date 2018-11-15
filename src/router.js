@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // The vue is given a name, here Home
-import Home from './views/Home.vue'
-import ThreadShow from '@/components/ThreadShow'
+import ThreadShow from '@/pages/PageThreadShow'
+import Home from '@/pages/PageHome'
 
 Vue.use(Router)
 
